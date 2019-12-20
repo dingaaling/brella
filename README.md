@@ -16,7 +16,7 @@ Other statistics were calculated such as number of total and delayed flights by 
 This notebook was an early test to compare a regression model of predicting the exact flight delay time or a classification model to group the delay into one of the 4 "delay blocks." While some delay time prediction results from a Random Forest Regressor looked promising, the error rate was significant enough that ultimately the decision was made to use the delay blocks in the final model.
 
 `delayPred.ipynb` <br>
-This notebook focuses on testing different models to predict a delay block for Boston origin flights. KFold method (4 splits) was used to partition training, validiation, and testing sets. Logistic Regression, Bagging Classifier, Gradient Boosting, AdaBoost, Multilayer Perceptron (MLP), K Nearest Neighbors, and Random Forest Classifiers were tested, with Gradient Boosting Classifer producing the best result, with a score of 0.862. 
+This notebook focuses on testing different models to predict a delay block for Boston origin flights. KFold method (4 splits) was used to partition training, validiation, and testing sets. Logistic Regression, Bagging Classifier, Gradient Boosting, AdaBoost, Multilayer Perceptron (MLP), K Nearest Neighbors, and Random Forest Classifiers were tested, with Gradient Boosting Classifer producing the best result, with a score of 0.862. However, in further testing, the Random Forest model proved to be more robust and was chosen as the final model.
 
 ## Flight Delay Insurance Model
 ![](https://github.com/dingaaling/brella/blob/master/Brella-Model.png)
