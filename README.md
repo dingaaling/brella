@@ -5,10 +5,10 @@ Flight delay insurance powered by delay prediction risk score and marketplace
 
 `delayStats.ipynb`
 This notebook explores a dataset of 2016 flights, filtering for those that originated from Boston, and visualizing the features and overall statistics of delay times. Given the distribution of delay times, the 4 "delay blocks" were chosen for the final risk score calculation:
-- <= 30 min
-- > 30 min and <= 60 min
-- > 60 min and <= 120 min
-- > 120 min
+- Less than 30 min
+- Greater than 30 min and Less than or equal to 60 min
+- Greater than 60 min and Less than or equal 120 min
+- Greater than 120 min
 
 Other statistics were calculated such as number of total and delayed flights by month, carrier, and destination airport, to understand importance of various features.
 
